@@ -22,7 +22,7 @@ time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
     vertical-align: baseline;
-    /* border: 1px solid grey; */
+    border: 1px solid grey; 
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -188,7 +188,7 @@ footer nav a {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    object-fit: center;
+    
 }
 
 
@@ -256,11 +256,32 @@ footer nav a {
     margin: 4%;
 }
 
-.container about-page{
+
+
+#toptext{
     display: flex;
-    width: 50%;
 }
-/* 
-#Strategy{
+
+#toptexxt h5{
+    font-size: larger;
+}
+
+#mid{
+    display: flex;
+    flex-wrap: wrap; 
     
-} */
+}
+
+
+#midboxes{
+    width: 20rem;
+    height: 20rem;
+    margin: 5%;
+}
+
+.button{
+    border-radius: 5px;
+    margin: 0 auto;
+    padding-left: 5px;
+
+}
