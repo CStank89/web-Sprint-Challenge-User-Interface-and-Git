@@ -21,7 +21,8 @@ time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	vertical-align: baseline;
+    vertical-align: baseline;
+    border: 1px solid grey;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -49,6 +50,7 @@ table {
 
 * {
     box-sizing: border-box;
+
 }
 
 html, body {
@@ -145,3 +147,67 @@ footer nav a {
     text-decoration: none;
 }
 
+
+
+#nav{   
+    margin: 2rem;
+    padding:
+}
+
+
+#boxs{
+    display: flex;
+}
+
+
+
+.box1{
+    background: teal;
+    height: 5rem;
+    width: 5rem;
+}
+.box2{
+    background: gold;
+    height: 5rem;
+    width: 5rem;
+}
+.box3{
+    background: cadetblue;
+    height: 5rem;
+    width: 5rem;
+}
+.box4{
+    background: coral;
+    height: 5rem;
+    width: 5rem;
+}
+.box5{
+    background: crimson;
+    height: 5rem;
+    width: 5rem;
+}
+.box6{
+    background: forestgreen;
+    height: 5rem;
+    width: 5rem;
+}
+.box7{
+    background: darkorchid;
+    height: 5rem;
+    width: 5rem;
+}
+.box8{
+    background: hotpink;
+    height: 5rem;
+    width: 5rem;
+}
+.box9{
+    background: indigo;
+    height: 5rem;
+    width: 5rem;
+}
+.box10{
+    background: dodgerblue;
+    height: 5rem;
+    width: 5rem;
+}
