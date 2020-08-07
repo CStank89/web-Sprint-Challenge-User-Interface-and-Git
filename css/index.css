@@ -22,7 +22,7 @@ time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
     vertical-align: baseline;
-    border: 1px solid grey;
+    /* border: 1px solid grey; */
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -50,7 +50,7 @@ table {
 
 * {
     box-sizing: border-box;
-
+    font-weight: bolder;
 }
 
 html, body {
@@ -149,9 +149,38 @@ footer nav a {
 
 
 
+
+
 #nav{   
     margin: 2rem;
-    padding:
+    text-decoration: none;
+    color: black;
+}
+
+#navbarabout{
+    display:flex;
+    justify-content: space-evenly;
+}
+
+
+#navabout{   
+    margin: 2rem;
+    text-decoration: none;
+    color: black;
+    margin: 0 auto;
+
+}
+
+#jumboabout{
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+#headerphoto{
+   margin-top: 5%;
+   margin-bottom: 2%;
 }
 
 
@@ -159,6 +188,7 @@ footer nav a {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    object-fit: center;
 }
 
 
@@ -168,6 +198,8 @@ footer nav a {
     height: 5rem;
     width: 5rem;
     margin: 4%;
+    
+    
 }
 .box2{
     background: gold;
@@ -223,3 +255,12 @@ footer nav a {
     width: 5rem;
     margin: 4%;
 }
+
+.container about-page{
+    display: flex;
+    width: 50%;
+}
+/* 
+#Strategy{
+    
+} */
