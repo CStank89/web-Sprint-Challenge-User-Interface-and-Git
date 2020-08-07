@@ -155,8 +155,10 @@ footer nav a {
 }
 
 
-#boxs{
+#boxes{
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 
@@ -165,49 +167,59 @@ footer nav a {
     background: teal;
     height: 5rem;
     width: 5rem;
+    margin: 4%;
 }
 .box2{
     background: gold;
     height: 5rem;
     width: 5rem;
+    margin: 4%;
 }
 .box3{
     background: cadetblue;
     height: 5rem;
     width: 5rem;
+    margin: 4%;
 }
 .box4{
     background: coral;
     height: 5rem;
     width: 5rem;
+    margin: 4%;
 }
 .box5{
     background: crimson;
     height: 5rem;
     width: 5rem;
+    margin: 4%;
 }
 .box6{
     background: forestgreen;
     height: 5rem;
     width: 5rem;
+    margin: 4%;
 }
 .box7{
     background: darkorchid;
     height: 5rem;
     width: 5rem;
+    margin: 4%;
 }
 .box8{
     background: hotpink;
     height: 5rem;
     width: 5rem;
+    margin: 4%;
 }
 .box9{
     background: indigo;
     height: 5rem;
     width: 5rem;
+    margin: 4%;
 }
 .box10{
     background: dodgerblue;
     height: 5rem;
     width: 5rem;
+    margin: 4%;
 }
